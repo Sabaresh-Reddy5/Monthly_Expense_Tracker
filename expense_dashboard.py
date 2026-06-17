@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Expense Tracker Dashboard", layout="wide")
 
-df = pd.read_csv(r"C:\Users\User\Desktop\Project\expense_data_1.csv")
+df = pd.read_csv("expense_data_1.csv")
 
 expenses = df[df["Income/Expense"] == "Expense"].copy()
 
